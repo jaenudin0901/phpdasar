@@ -12,7 +12,7 @@ if(hapus($id) > 0 ) {
 				document.location.href = 'index.php';
 			</script>
 		";
-	} else {
+	} else{
 		echo "
 			<script>
 				alert('data gagal dihapus!');
