@@ -81,7 +81,7 @@ if(isset($_POST["cari"])){
 <?php endfor; ?>
 
 <?php if($halamanAktif < $jumlahHalaman)  : ?>
-<a href="?halaman=<?=$halamanAktif + 1; ?>">&raquo</a>
+<a href="?halaman=<?=$halamanAktif + 1; ?>">&raquo </a>
 <?php endif; ?>
 
 
